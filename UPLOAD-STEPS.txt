@@ -1,0 +1,24 @@
+HOW TO MAKE THE APK (GitHub)
+
+1. Extract this zip on your computer.
+2. In Windows File Explorer turn on: View > Show > Hidden items
+   (so the folder named ".github" is visible).
+3. Open your GitHub repository > Add file > Upload files.
+4. Select EVERYTHING inside the extracted folder and drag it into the page:
+      .github   (folder)
+      www       (folder)
+      .gitignore
+      capacitor.config.json
+      package.json
+      README.md
+      UPLOAD-STEPS.txt
+5. Press "Commit changes".
+6. Open the "Actions" tab. "Build APK" starts by itself
+   (if not: Build APK > Run workflow).
+7. After about 5-8 minutes, when it shows a green tick, open that run and
+   download "worksheet-calculator-apk" from Artifacts at the bottom.
+8. Extract it and install app-debug.apk on your phone.
+
+After uploading, your repository must show these 2 folders and 5 files:
+   .github, www, .gitignore, README.md, UPLOAD-STEPS.txt,
+   capacitor.config.json, package.json
